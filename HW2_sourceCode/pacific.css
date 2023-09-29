@@ -2,8 +2,8 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-image: url("ptrbackground.jpg");
-	color: #666666;
+	/* background-image: url(ptrbackground.jpg); */
+	color: #00569f;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,6 +17,9 @@ nav a:hover {
 	color: #FFFFFF;
 }
 h1 {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	max-width: 100%;
 	margin-bottom: 0;
 	padding: 10px;
 }
@@ -36,4 +39,11 @@ dt {
 footer {
 	font-family: Georgia, "Times New Roman", serif;
 }
-
+#content ul{
+	list-style-type: none;
+}
+#content li{
+  background: url('marker.gif') no-repeat;
+  height: 34px;
+  padding-left: 20px;
+}
