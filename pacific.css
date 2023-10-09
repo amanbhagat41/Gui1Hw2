@@ -1,3 +1,12 @@
+/* 
+File: pacific.css
+GUI Assignment: HW2 Style a site with external CSS
+Tasked with using css to make a website match the example one shown to us
+Aman Bhagat, Umass Lowell Computer Science, aman_bhagat@student.uml.edu
+Copyright (c) 2021 by Aman.  All rights reserved.  May be freely copied or 
+excerpted for educational purposes with credit to the author. 
+updated by AB on October 1, 2023 at 5:30 PM
+*/
 header,
 hgroup,
 nav,
@@ -10,42 +19,46 @@ article {
   display: block;
 }
 body {
-  background-image: url(ptrbackground.jpg);
-  background-color: #00569f;
+  background-image: url(ptrbackground.jpg); /*adds image to the background*/
+  background-color: #00569f; /*when image ends this is the background color*/
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 30px;
-  width: 80%;
-  min-width: 600px;
+  padding-top: 30px; /*padding on top so there is space*/
+  width: 80%; /*width is 80% of the screen*/
+  min-width: 600px; /*the min width of the website is 600px*/
   margin: auto;
   margin-bottom: 0px;
 }
-
+nav a {
+  text-decoration: none;
+  color: #0f2a4a; /*color of the nav links*/
+  font-weight: bolder;
+}
 nav ul {
-  float: left;
+  float: left; /*makes the nav go to the left*/
   font-size: 1.2em;
-  list-style-type: none;
+  list-style-type: none; /*make sure there is no list type*/
   padding: 20px;
   margin: 0;
 }
 nav a:visited {
-  color: #344873;
-}
+  color: #344873; /*if link was visted this is the new color*/
+} 
 nav a:hover {
-  color: #ffffff;
+  color: #ffffff; /*when hovering over the link its white*/
 }
 
 h1 {
-  background-image: url(sunset.jpg);
-  background-position: right;
-  background-repeat: no-repeat;
+  background-image: url(sunset.jpg); /*picture of the banner*/
+  background-position: right; /*makes sure the picture is on the right*/
+  background-repeat: no-repeat; /*picture does not repeat*/
   font-size: 40px;
   color: white;
-  background-color: #000033;
+  background-color: #000033; /*the color of the background of the banner*/
   margin-bottom: 0;
   padding: 10px;
 }
 h2 {
-  color: #3399cc;
+  color: #3e90bd;
 }
 h1,
 h2 {
@@ -60,29 +73,31 @@ dt {
 }
 footer {
   font-family: Georgia, "Times New Roman", serif;
-  background-color: white;
+  background-color: white; /*makes sure the footer is white*/
   font-style: italic;
-  margin-left: 160px;
-  padding: 20px;
+  margin-left: 160px; /*was not aligned so had to push the margin to the left*/
+  padding: 30px;
   font-size: small;
 }
 #content ul {
-  list-style-image: url(marker.gif);
+  list-style-image: url(marker.gif); /*makes the bullet points the marker image*/
+  list-style-position: inside; /*makes text align with the bullet points*/
 }
 #wrapper {
-  background-color: #3399cc;
+  background-color: #90c7e3; /*color of the wrapper background is this*/
 }
 #content {
-  margin-left: 160px;
-  padding-left: 30px;
-  margin-top: -20px;
-  background: white;
+  margin-left: 160px; /*margin to make everything align well*/
+  padding-left: 30px; /*padding so img is not all the way next to nav*/
+  margin-top: -20px; /*margin to make everything align well*/
+  padding-right: 20px; /*padding right so words are not all the way to the right*/
+  background: white; /*makes the content background white*/
 }
 img {
-  float: left;
-  margin-right: 40px;
+  float: left; /*makes the image float left*/
+  margin-right: 20px; /*makes room for the words next to the image*/
 }
 .resort {
-  color: #3399cc;
-  font-weight: bolder;
+  color: #206587; /*text color*/
+  font-weight: bolder; /*text bold*/
 }
